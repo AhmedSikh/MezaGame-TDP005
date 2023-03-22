@@ -1,0 +1,112 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Hierarchical Index}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Class Hierarchy}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Class Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Class List}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Class Documentation}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Bad\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cookie Class Reference}{5}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Detailed Description}{5}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Constructor \& Destructor Documentation}{5}{subsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}BadCookie()}{6}{subsubsection.3.1.2.1}%
+\contentsline {section}{\numberline {3.2}Carrot Class Reference}{6}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Detailed Description}{6}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Constructor \& Destructor Documentation}{6}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}Carrot()}{7}{subsubsection.3.2.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2.2}$\sim $Carrot()}{7}{subsubsection.3.2.2.2}%
+\contentsline {section}{\numberline {3.3}Chili Class Reference}{7}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Detailed Description}{8}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Constructor \& Destructor Documentation}{8}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.1}Chili()}{8}{subsubsection.3.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.3.2.2}$\sim $Chili()}{8}{subsubsection.3.3.2.2}%
+\contentsline {subsection}{\numberline {3.3.3}Member Function Documentation}{8}{subsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.3.1}collision()}{8}{subsubsection.3.3.3.1}%
+\contentsline {section}{\numberline {3.4}Cookie Class Reference}{9}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Detailed Description}{9}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Constructor \& Destructor Documentation}{9}{subsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.2.1}Cookie()}{9}{subsubsection.3.4.2.1}%
+\contentsline {subsubsection}{\numberline {3.4.2.2}$\sim $Cookie()}{9}{subsubsection.3.4.2.2}%
+\contentsline {subsection}{\numberline {3.4.3}Member Function Documentation}{10}{subsection.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.3.1}update()}{10}{subsubsection.3.4.3.1}%
+\contentsline {section}{\numberline {3.5}Enemy Class Reference}{10}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Detailed Description}{10}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Constructor \& Destructor Documentation}{11}{subsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.2.1}Enemy()}{11}{subsubsection.3.5.2.1}%
+\contentsline {subsubsection}{\numberline {3.5.2.2}$\sim $Enemy()}{11}{subsubsection.3.5.2.2}%
+\contentsline {subsection}{\numberline {3.5.3}Member Function Documentation}{11}{subsection.3.5.3}%
+\contentsline {subsubsection}{\numberline {3.5.3.1}move()}{11}{subsubsection.3.5.3.1}%
+\contentsline {subsubsection}{\numberline {3.5.3.2}update()}{11}{subsubsection.3.5.3.2}%
+\contentsline {section}{\numberline {3.6}Entity Class Reference}{12}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Detailed Description}{12}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Constructor \& Destructor Documentation}{12}{subsection.3.6.2}%
+\contentsline {subsubsection}{\numberline {3.6.2.1}Entity()}{12}{subsubsection.3.6.2.1}%
+\contentsline {subsubsection}{\numberline {3.6.2.2}$\sim $Entity()}{13}{subsubsection.3.6.2.2}%
+\contentsline {subsection}{\numberline {3.6.3}Member Function Documentation}{13}{subsection.3.6.3}%
+\contentsline {subsubsection}{\numberline {3.6.3.1}move()}{13}{subsubsection.3.6.3.1}%
+\contentsline {subsubsection}{\numberline {3.6.3.2}update()}{13}{subsubsection.3.6.3.2}%
+\contentsline {subsection}{\numberline {3.6.4}Member Data Documentation}{13}{subsection.3.6.4}%
+\contentsline {subsubsection}{\numberline {3.6.4.1}move\_direction}{13}{subsubsection.3.6.4.1}%
+\contentsline {subsubsection}{\numberline {3.6.4.2}movement}{14}{subsubsection.3.6.4.2}%
+\contentsline {section}{\numberline {3.7}Game Class Reference}{14}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Detailed Description}{14}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Constructor \& Destructor Documentation}{14}{subsection.3.7.2}%
+\contentsline {subsubsection}{\numberline {3.7.2.1}Game()}{14}{subsubsection.3.7.2.1}%
+\contentsline {subsection}{\numberline {3.7.3}Member Function Documentation}{14}{subsection.3.7.3}%
+\contentsline {subsubsection}{\numberline {3.7.3.1}run()}{15}{subsubsection.3.7.3.1}%
+\contentsline {section}{\numberline {3.8}Good\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cookie Class Reference}{15}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}Detailed Description}{15}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.8.2}Constructor \& Destructor Documentation}{15}{subsection.3.8.2}%
+\contentsline {subsubsection}{\numberline {3.8.2.1}GoodCookie()}{16}{subsubsection.3.8.2.1}%
+\contentsline {section}{\numberline {3.9}Menu Class Reference}{16}{section.3.9}%
+\contentsline {subsection}{\numberline {3.9.1}Detailed Description}{16}{subsection.3.9.1}%
+\contentsline {subsection}{\numberline {3.9.2}Constructor \& Destructor Documentation}{16}{subsection.3.9.2}%
+\contentsline {subsubsection}{\numberline {3.9.2.1}Menu()}{16}{subsubsection.3.9.2.1}%
+\contentsline {subsection}{\numberline {3.9.3}Member Function Documentation}{16}{subsection.3.9.3}%
+\contentsline {subsubsection}{\numberline {3.9.3.1}getPressedItem()}{17}{subsubsection.3.9.3.1}%
+\contentsline {subsubsection}{\numberline {3.9.3.2}run()}{17}{subsubsection.3.9.3.2}%
+\contentsline {section}{\numberline {3.10}Object Class Reference}{17}{section.3.10}%
+\contentsline {subsection}{\numberline {3.10.1}Constructor \& Destructor Documentation}{18}{subsection.3.10.1}%
+\contentsline {subsubsection}{\numberline {3.10.1.1}Object()}{18}{subsubsection.3.10.1.1}%
+\contentsline {subsubsection}{\numberline {3.10.1.2}$\sim $Object()}{18}{subsubsection.3.10.1.2}%
+\contentsline {subsection}{\numberline {3.10.2}Member Function Documentation}{18}{subsection.3.10.2}%
+\contentsline {subsubsection}{\numberline {3.10.2.1}collision()}{18}{subsubsection.3.10.2.1}%
+\contentsline {subsubsection}{\numberline {3.10.2.2}draw()}{18}{subsubsection.3.10.2.2}%
+\contentsline {subsubsection}{\numberline {3.10.2.3}getsprite()}{19}{subsubsection.3.10.2.3}%
+\contentsline {subsubsection}{\numberline {3.10.2.4}update()}{19}{subsubsection.3.10.2.4}%
+\contentsline {subsection}{\numberline {3.10.3}Member Data Documentation}{19}{subsection.3.10.3}%
+\contentsline {subsubsection}{\numberline {3.10.3.1}sprite}{19}{subsubsection.3.10.3.1}%
+\contentsline {subsubsection}{\numberline {3.10.3.2}texture}{19}{subsubsection.3.10.3.2}%
+\contentsline {section}{\numberline {3.11}Player Class Reference}{19}{section.3.11}%
+\contentsline {subsection}{\numberline {3.11.1}Detailed Description}{20}{subsection.3.11.1}%
+\contentsline {subsection}{\numberline {3.11.2}Constructor \& Destructor Documentation}{20}{subsection.3.11.2}%
+\contentsline {subsubsection}{\numberline {3.11.2.1}Player()}{20}{subsubsection.3.11.2.1}%
+\contentsline {subsection}{\numberline {3.11.3}Member Function Documentation}{20}{subsection.3.11.3}%
+\contentsline {subsubsection}{\numberline {3.11.3.1}change\_coordinates()}{20}{subsubsection.3.11.3.1}%
+\contentsline {subsubsection}{\numberline {3.11.3.2}collision\_with\_wall()}{20}{subsubsection.3.11.3.2}%
+\contentsline {subsubsection}{\numberline {3.11.3.3}get\_lives()}{21}{subsubsection.3.11.3.3}%
+\contentsline {subsubsection}{\numberline {3.11.3.4}get\_points()}{21}{subsubsection.3.11.3.4}%
+\contentsline {subsubsection}{\numberline {3.11.3.5}input()}{21}{subsubsection.3.11.3.5}%
+\contentsline {subsubsection}{\numberline {3.11.3.6}move()}{21}{subsubsection.3.11.3.6}%
+\contentsline {subsubsection}{\numberline {3.11.3.7}set\_lives()}{21}{subsubsection.3.11.3.7}%
+\contentsline {subsubsection}{\numberline {3.11.3.8}set\_points()}{21}{subsubsection.3.11.3.8}%
+\contentsline {subsubsection}{\numberline {3.11.3.9}set\_speed()}{22}{subsubsection.3.11.3.9}%
+\contentsline {subsubsection}{\numberline {3.11.3.10}update()}{22}{subsubsection.3.11.3.10}%
+\contentsline {section}{\numberline {3.12}Wall Class Reference}{22}{section.3.12}%
+\contentsline {subsection}{\numberline {3.12.1}Detailed Description}{22}{subsection.3.12.1}%
+\contentsline {subsection}{\numberline {3.12.2}Constructor \& Destructor Documentation}{23}{subsection.3.12.2}%
+\contentsline {subsubsection}{\numberline {3.12.2.1}Wall()}{23}{subsubsection.3.12.2.1}%
+\contentsline {subsubsection}{\numberline {3.12.2.2}$\sim $Wall()}{23}{subsubsection.3.12.2.2}%
+\contentsline {subsection}{\numberline {3.12.3}Member Function Documentation}{23}{subsection.3.12.3}%
+\contentsline {subsubsection}{\numberline {3.12.3.1}update()}{23}{subsubsection.3.12.3.1}%
+\contentsline {section}{\numberline {3.13}World Class Reference}{23}{section.3.13}%
+\contentsline {subsection}{\numberline {3.13.1}Detailed Description}{24}{subsection.3.13.1}%
+\contentsline {subsection}{\numberline {3.13.2}Constructor \& Destructor Documentation}{24}{subsection.3.13.2}%
+\contentsline {subsubsection}{\numberline {3.13.2.1}World()}{24}{subsubsection.3.13.2.1}%
+\contentsline {subsubsection}{\numberline {3.13.2.2}$\sim $World()}{24}{subsubsection.3.13.2.2}%
+\contentsline {subsection}{\numberline {3.13.3}Member Function Documentation}{24}{subsection.3.13.3}%
+\contentsline {subsubsection}{\numberline {3.13.3.1}remove\_object()}{24}{subsubsection.3.13.3.1}%
+\contentsline {subsection}{\numberline {3.13.4}Member Data Documentation}{25}{subsection.3.13.4}%
+\contentsline {subsubsection}{\numberline {3.13.4.1}entities}{25}{subsubsection.3.13.4.1}%
+\contentsline {subsubsection}{\numberline {3.13.4.2}myPlayer}{25}{subsubsection.3.13.4.2}%
+\contentsline {subsubsection}{\numberline {3.13.4.3}walls}{25}{subsubsection.3.13.4.3}%
+\contentsline {subsubsection}{\numberline {3.13.4.4}win}{25}{subsubsection.3.13.4.4}%
+\contentsline {chapter}{Index}{27}{section*.35}%

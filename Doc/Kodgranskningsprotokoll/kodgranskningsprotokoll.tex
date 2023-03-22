@@ -1,0 +1,109 @@
+\documentclass{TDP005mall}
+
+
+
+\newcommand{\version}{Version 1.1}
+\author{Alicia Bergman \url {alibe500@student.liu.se}\\
+  Josefin Bodin \url {josbo110@student.liu.se}\\
+  Ahmed Sikh \url {ahmsi881@student.liu.se}}
+\title{Kodgranskningsprotokoll}
+\date{2020-12-09}
+\rhead{Alicia Bergman\\
+  Josefin Bodin\\
+  Ahmed Sikh}
+
+
+
+\begin{document}
+\projectpage
+\section{Revisionshistorik}
+\begin{table}[!h]
+\begin{tabularx}{\linewidth}{|l|X|l|}
+\hline
+Ver. & Revisionsbeskrivning & Datum \\\hline
+1.0 & Första utkast & 201209 \\\hline
+\end{tabularx}
+\end{table}
+
+
+\section{Möte}
+Inför mötet såg vi till att vår motgrupp hade tillgång till vår projektkod och
+vår designspecifikation via gitlab. Vi hade även tillgång till deras på samma
+sätt. Vi förberedde oss genom att först kolla igenom koden på egen hand för att
+sedan diskutera tillsammans. Mötet ägde rum den 9:e december 14:00
+
+\section{Det granskade projektet}
+Spelet vi granskade går ut på att skjuta fiender som rör sig i en rad mot
+spelaren. Spelarens rörelse är begränsad till en specifik area. Över denna area
+rör sig en annan typ av fiende slumpmässigt och spelaren måste se till att
+undvika denna eller skjuta den. 
+
+\subsection{Första intrycket}
+Vid en första anblick tyckte vi att spelets designspecifikation och kod såg mycket genomtänkt och välplanerad ut och detta var även det allmänna intrycket
+när projektet lästs igenom.
+
+\subsection{Kommentarer}
+Koden var generellt sett ganska lättförståelig, men det skulle inte skada med
+mer kommentarer i koden för att göra läsbarheten lite lättare och koden mer
+förståelig vid en första anblick.
+
+\subsection{Funktionsplats}
+Något vi noterade var att en del funktioner som hanterade ungefär samma sak låg
+i olika klasser i projektet och det vore bra om det istället låg samlade.
+
+\subsection{Publika variabler}
+Alla variabler i objectklassen var publika, något som kan skapa problem i
+framtiden.
+
+\subsection{Nya nivåer}
+Vi märkte att allt för tillfället är hårdkodat, vilket gör det komplicerat om
+man vill lägga till nya nivåer till spelet.
+
+\subsection{Positiv feedback}
+
+\subsubsection{Välplanerat}
+Projektet kändes som sagt genomtänkt och välplanerat.
+
+\subsubsection{Main}
+Main funktionen är väldigt liten, vilket är ett av kraven på koden.
+
+\subsubsection{Klasser}
+De har bra och tydliga klasser som gör precis det de ska göra.
+
+\section{Vårat projekt}
+
+\subsection{Kollision med väggar}
+Vår spelare vibrerar när den kolliderar med väggar, vår motgrupp hade haft
+liknande problem och erbjöd en lösning på detta.
+
+\subsection{Game}
+Vår updatefunktion i gameklassen var svårläslig, något vi ska kolla igenom och
+försöka lösa.
+
+\subsection{State}
+Vi saknar för tillfället en stateklass som alla staten ärver ifrån. Detta är
+ingen prioritet för tillfället men ska försöka lösas om tid finns.
+
+\subsection{Enemy}
+Movefunktionen i enemyklassen är ganska svårläslig, vi ska försöka förbättra
+läsbarheten i den.
+Enemy tar för tillfället in ganska många parametrar, något som kanske kan lösas
+med en vektor.
+
+\subsection{Inläsning av sprite}
+Vid inläsning av en sprite får vi nu ett errormeddelande om texturen ej kan
+läsas in, detta kan lösas med hjälp av en defaulttextur istället.
+
+\subsection{variabelnamn}
+Vi har ganska korta och oförståeliga variabelnamn, tanken är att gå igenom koden
+och ändra på dessa till mer passande namn.
+
+\subsection{Positiv feedback}
+
+\subsubsection{Generellt}
+Vår motgrupp tyckte vårat projekt var välplanerat och genomtänk samt att vår
+polymorfi var bra.
+
+\subsubsection{Inläsning av nivåer}
+Vi har en bra inläsning, vilket gör det lätt att läsa in nya nivåer.
+\end{document}

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="sfml"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ahmsi881/IP/tdp005/ny\ grupp/tdp005/Game/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ahmsi881/IP/tdp005/ny\ grupp/tdp005/Game/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ahmsi881/IP/tdp005/ny\ grupp/tdp005/Game/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ahmsi881/IP/tdp005/ny\ grupp/tdp005/Game/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ahmsi881/IP/tdp005/ny\ grupp/tdp005/Game/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ahmsi881/IP/tdp005/ny\ grupp/tdp005/Game/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ahmsi881/IP/tdp005/ny\ grupp/tdp005/Game/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ahmsi881/IP/tdp005/ny\ grupp/tdp005/Game/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ahmsi881/IP/tdp005/ny\ grupp/tdp005/Game/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ahmsi881/IP/tdp005/ny\ grupp/tdp005/Game/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ahmsi881/IP/tdp005/ny\ grupp/tdp005/Game/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ahmsi881/IP/tdp005/ny\ grupp/tdp005/Game/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sfml">
+				<Option output="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game/sfml" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ahmsi881/IP/tdp005/ny\ grupp/tdp005/Game/Makefile&quot;  VERBOSE=1 sfml"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ahmsi881/IP/tdp005/ny\ grupp/tdp005/Game/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ahmsi881/IP/tdp005/ny\ grupp/tdp005/Game/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ahmsi881/IP/tdp005/ny\ grupp/tdp005/Game/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sfml/fast">
+				<Option output="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game/sfml" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ahmsi881/IP/tdp005/ny\ grupp/tdp005/Game/Makefile&quot;  VERBOSE=1 sfml/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ahmsi881/IP/tdp005/ny\ grupp/tdp005/Game/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ahmsi881/IP/tdp005/ny\ grupp/tdp005/Game/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ahmsi881/IP/tdp005/ny\ grupp/tdp005/Game/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game/Menu.cc">
+			<Option target="sfml"/>
+		</Unit>
+		<Unit filename="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game/Menu.h">
+			<Option target="sfml"/>
+		</Unit>
+		<Unit filename="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game/cookie.cc">
+			<Option target="sfml"/>
+		</Unit>
+		<Unit filename="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game/cookie.h">
+			<Option target="sfml"/>
+		</Unit>
+		<Unit filename="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game/enemy.cc">
+			<Option target="sfml"/>
+		</Unit>
+		<Unit filename="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game/enemy.h">
+			<Option target="sfml"/>
+		</Unit>
+		<Unit filename="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game/entity.cc">
+			<Option target="sfml"/>
+		</Unit>
+		<Unit filename="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game/entity.h">
+			<Option target="sfml"/>
+		</Unit>
+		<Unit filename="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game/game.cc">
+			<Option target="sfml"/>
+		</Unit>
+		<Unit filename="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game/game.h">
+			<Option target="sfml"/>
+		</Unit>
+		<Unit filename="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game/manin.cc">
+			<Option target="sfml"/>
+		</Unit>
+		<Unit filename="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game/object.cc">
+			<Option target="sfml"/>
+		</Unit>
+		<Unit filename="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game/object.h">
+			<Option target="sfml"/>
+		</Unit>
+		<Unit filename="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game/player.cc">
+			<Option target="sfml"/>
+		</Unit>
+		<Unit filename="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game/player.h">
+			<Option target="sfml"/>
+		</Unit>
+		<Unit filename="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game/wall.cc">
+			<Option target="sfml"/>
+		</Unit>
+		<Unit filename="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game/wall.h">
+			<Option target="sfml"/>
+		</Unit>
+		<Unit filename="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game/world.cc">
+			<Option target="sfml"/>
+		</Unit>
+		<Unit filename="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game/world.h">
+			<Option target="sfml"/>
+		</Unit>
+		<Unit filename="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLSharedTargets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/ahmsi881/IP/tdp005/ny grupp/tdp005/Game/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

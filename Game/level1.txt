@@ -1,0 +1,81 @@
+
+//wall: width, height, x.pos, y.pos
+//cookie: x.pos, y.pos
+//carrot: x.pos, y.pos route(first, second, third, fourth), dist
+//chili:  x.pos, y.pos route(first, second, third, fourth), dist
+
+Player 610 760
+Wall 3 0.05 0 0
+Wall 0.05 3 0 0
+Wall 3 0.05 1180 0
+Wall 0.05 1.5 0 780
+Wall 0.05 1.4 650 780
+Wall 0.20 0.05 580 700
+Wall -0.61 0.05 572 644
+Wall 0.05 -0.65 572 624
+Wall -0.525 0.05 650 780
+Wall 0.05 -1 470 700
+Wall 0.15 0.05 337 720
+Wall 0.05 2.75 0 220
+Wall 0.9 0.05 230 300
+Wall 1 0.05 70 300
+Wall 0.9 0.05 160 300
+Wall 0.05 0.13 180 300
+Wall 0.05 0.685 250 550
+Wall -0.65 0.05 504 550
+Wall 0.05 1.55 504 340
+Wall 0.05 1.14 650 570	
+Wall 0.9 0.05 1104 360
+Wall 0.05 -1 1124 710
+Wall 0.05 -0.82 1055 640
+Wall 0.05 1.13 590 400
+Wall 0.3 0.05 1035 400
+Wall -0.25 0.05 950 570
+Wall 0.25 0.05 860 420
+Wall -0.25 0.05 780 570
+Wall 0.25 0.05 690 420
+Wall 0.05 -0.1 690 475
+Wall 0.05 0.3 317 485
+Wall -0.46 0.05 417 486
+Wall 0.15 0.05 605 240
+Wall 0.05 0.7 730 280
+Wall 0.05 -1.3 1200 130
+Wall 0.05 1.2 80 130
+Wall -0.1 0.05 80 130
+Wall 0.05 1.2 80 75
+Wall -0.1 0.05 680 130
+Wall 0.05 1 680 75
+Wall -0.15 0.05 400 700
+
+GoodCookie 610 700
+GoodCookie 400 730
+GoodCookie 830 425
+GoodCookie 1000 740
+GoodCookie 450 300
+GoodCookie 1000 600
+GoodCookie 1077 545
+GoodCookie 750 600
+GoodCookie 190 330
+GoodCookie 500 180
+GoodCookie 450 180
+GoodCookie 350 180
+GoodCookie 300 750 
+GoodCookie 1000 30
+BadCookie 200 30
+BadCookie 752 545
+BadCookie 1000 425
+BadCookie 400 180
+route(1upp, 2ned, 4höger, 3vänster)
+
+Carrot 450 660 3 4 3 4 1.5
+Carrot 120 660 3 4 3 4 2.5
+Carrot 600 55 1 2 1 2 1
+Carrot 470 245 4 3 4 3 4
+Carrot 1150 230 1 2 1 2 3
+Carrot 610 455 1 2 1 2 1.7
+Chili 750 600 3 4 3 4 3
+Chili 300 30 3 4 3 4 4
+Chili 280 305 1 2 1 2 2
+Ch#ili 662 242 3 4 3 4 5
+
+Win 710 100

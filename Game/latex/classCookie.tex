@@ -1,0 +1,59 @@
+\hypertarget{classCookie}{}\doxysection{Cookie Class Reference}
+\label{classCookie}\index{Cookie@{Cookie}}
+
+
+{\ttfamily \#include $<$cookie.\+h$>$}
+
+Inheritance diagram for Cookie\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classCookie}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCookie_ad6d87a39a2605e09103830156c889ef1}{Cookie}} (std\+::string, float x, float y, int points)
+\item 
+\mbox{\hyperlink{classCookie_a446095cceac8177cafd4efa220307126}{$\sim$\+Cookie}} ()=default
+\item 
+void \mbox{\hyperlink{classCookie_aa8ab0b490e3e1529a01c3c81fad011d3}{update}} (\mbox{\hyperlink{classPlayer}{Player}} \&object, sf\+::\+Time time)
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Defines the cookies 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classCookie_ad6d87a39a2605e09103830156c889ef1}\label{classCookie_ad6d87a39a2605e09103830156c889ef1}} 
+\index{Cookie@{Cookie}!Cookie@{Cookie}}
+\index{Cookie@{Cookie}!Cookie@{Cookie}}
+\doxysubsubsection{\texorpdfstring{Cookie()}{Cookie()}}
+{\footnotesize\ttfamily Cookie\+::\+Cookie (\begin{DoxyParamCaption}\item[{std\+::string}]{image,  }\item[{float}]{x,  }\item[{float}]{y,  }\item[{int}]{points }\end{DoxyParamCaption})}
+
+Constructor that takes the texture, coordinates and the amount of points the cookie will give to the player. \mbox{\Hypertarget{classCookie_a446095cceac8177cafd4efa220307126}\label{classCookie_a446095cceac8177cafd4efa220307126}} 
+\index{Cookie@{Cookie}!````~Cookie@{$\sim$Cookie}}
+\index{````~Cookie@{$\sim$Cookie}!Cookie@{Cookie}}
+\doxysubsubsection{\texorpdfstring{$\sim$Cookie()}{~Cookie()}}
+{\footnotesize\ttfamily Cookie\+::$\sim$\+Cookie (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+Destructor set to default. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classCookie_aa8ab0b490e3e1529a01c3c81fad011d3}\label{classCookie_aa8ab0b490e3e1529a01c3c81fad011d3}} 
+\index{Cookie@{Cookie}!update@{update}}
+\index{update@{update}!Cookie@{Cookie}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void Cookie\+::update (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classPlayer}{Player}} \&}]{object,  }\item[{sf\+::\+Time}]{time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Updates the player in the game loop when it has collided with a cookie. 
+
+Implements \mbox{\hyperlink{classObject_aee75c5e9963f714e4de74b1108831195}{Object}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+cookie.\+h\item 
+cookie.\+cc\end{DoxyCompactItemize}

@@ -1,0 +1,86 @@
+\hypertarget{classWorld}{}\doxysection{World Class Reference}
+\label{classWorld}\index{World@{World}}
+
+
+{\ttfamily \#include $<$world.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classWorld_a431f97eb58d5b72da4bd6459c54aa1a9}{World}} (std\+::string levelname)
+\item 
+\mbox{\hyperlink{classWorld_a8c73fba541a5817fff65147ba47cd827}{$\sim$\+World}} ()
+\item 
+void \mbox{\hyperlink{classWorld_aa7cd5d5c862b39814e2772f01170a285}{remove\+\_\+object}} (\mbox{\hyperlink{classObject}{Object}} \&object)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{classObject}{Object}} $\ast$ $>$ \mbox{\hyperlink{classWorld_af45997fb4814a75ca7045a3ea06f291e}{walls}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{classObject}{Object}} $\ast$ $>$ \mbox{\hyperlink{classWorld_ac162ddf1088e0278eb20251d1fdf92aa}{entities}}
+\item 
+\mbox{\hyperlink{classPlayer}{Player}} \mbox{\hyperlink{classWorld_af49fb08926b3cd96fa1fe8aa8548ad9a}{my\+Player}}
+\item 
+sf\+::\+Sprite \mbox{\hyperlink{classWorld_ac69f2968a5bdc1a876913726b6240446}{win}} \{\}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Holds all the game objects, and reads them from a file. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classWorld_a431f97eb58d5b72da4bd6459c54aa1a9}\label{classWorld_a431f97eb58d5b72da4bd6459c54aa1a9}} 
+\index{World@{World}!World@{World}}
+\index{World@{World}!World@{World}}
+\doxysubsubsection{\texorpdfstring{World()}{World()}}
+{\footnotesize\ttfamily World\+::\+World (\begin{DoxyParamCaption}\item[{std\+::string}]{levelname }\end{DoxyParamCaption})}
+
+The constructor takes the name of the file that contains the level. \mbox{\Hypertarget{classWorld_a8c73fba541a5817fff65147ba47cd827}\label{classWorld_a8c73fba541a5817fff65147ba47cd827}} 
+\index{World@{World}!````~World@{$\sim$World}}
+\index{````~World@{$\sim$World}!World@{World}}
+\doxysubsubsection{\texorpdfstring{$\sim$World()}{~World()}}
+{\footnotesize\ttfamily World\+::$\sim$\+World (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Deletes all objects that are stored on the heap. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classWorld_aa7cd5d5c862b39814e2772f01170a285}\label{classWorld_aa7cd5d5c862b39814e2772f01170a285}} 
+\index{World@{World}!remove\_object@{remove\_object}}
+\index{remove\_object@{remove\_object}!World@{World}}
+\doxysubsubsection{\texorpdfstring{remove\_object()}{remove\_object()}}
+{\footnotesize\ttfamily void World\+::remove\+\_\+object (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classObject}{Object}} \&}]{object }\end{DoxyParamCaption})}
+
+Removes one object from the entities vector. 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classWorld_ac162ddf1088e0278eb20251d1fdf92aa}\label{classWorld_ac162ddf1088e0278eb20251d1fdf92aa}} 
+\index{World@{World}!entities@{entities}}
+\index{entities@{entities}!World@{World}}
+\doxysubsubsection{\texorpdfstring{entities}{entities}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{classObject}{Object}}$\ast$$>$ World\+::entities}
+
+Public variable that contains entity objects. \mbox{\Hypertarget{classWorld_af49fb08926b3cd96fa1fe8aa8548ad9a}\label{classWorld_af49fb08926b3cd96fa1fe8aa8548ad9a}} 
+\index{World@{World}!myPlayer@{myPlayer}}
+\index{myPlayer@{myPlayer}!World@{World}}
+\doxysubsubsection{\texorpdfstring{myPlayer}{myPlayer}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classPlayer}{Player}} World\+::my\+Player}
+
+Public variable an object of type player. \mbox{\Hypertarget{classWorld_af45997fb4814a75ca7045a3ea06f291e}\label{classWorld_af45997fb4814a75ca7045a3ea06f291e}} 
+\index{World@{World}!walls@{walls}}
+\index{walls@{walls}!World@{World}}
+\doxysubsubsection{\texorpdfstring{walls}{walls}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{classObject}{Object}}$\ast$$>$ World\+::walls}
+
+Public variable that contains wall objects. \mbox{\Hypertarget{classWorld_ac69f2968a5bdc1a876913726b6240446}\label{classWorld_ac69f2968a5bdc1a876913726b6240446}} 
+\index{World@{World}!win@{win}}
+\index{win@{win}!World@{World}}
+\doxysubsubsection{\texorpdfstring{win}{win}}
+{\footnotesize\ttfamily sf\+::\+Sprite World\+::win \{\}}
+
+A sprite that represent the goal for the player to reach. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+world.\+h\item 
+world.\+cc\end{DoxyCompactItemize}

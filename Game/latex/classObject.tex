@@ -1,0 +1,103 @@
+\hypertarget{classObject}{}\doxysection{Object Class Reference}
+\label{classObject}\index{Object@{Object}}
+Inheritance diagram for Object\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{classObject}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classObject_a9ac76a608a3e327acb6c8cbf946bcb9e}{Object}} (std\+::string text, float w, float h, float x, float y)
+\item 
+virtual \mbox{\hyperlink{classObject_a226f2ae2af766b77d83c09a4d766b725}{$\sim$\+Object}} ()=default
+\item 
+void \mbox{\hyperlink{classObject_aa96cbfa211a3fdef07b9a942520ff6ab}{draw}} (sf\+::\+Render\+Window \&window) const
+\item 
+virtual void \mbox{\hyperlink{classObject_aee75c5e9963f714e4de74b1108831195}{update}} (\mbox{\hyperlink{classPlayer}{Player}} \&object, sf\+::\+Time time)=0
+\item 
+virtual bool \mbox{\hyperlink{classObject_a42a369d9cff9070afbb41023a709263d}{collision}} (\mbox{\hyperlink{classObject}{Object}} const \&other) const
+\item 
+sf\+::\+Sprite \mbox{\hyperlink{classObject_a1cd2824fc2cee930f63980695cba7dee}{getsprite}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+sf\+::\+Sprite \mbox{\hyperlink{classObject_a65be09abc56e93e0154c3a0e37f97579}{sprite}}
+\item 
+sf\+::\+Texture \mbox{\hyperlink{classObject_a8abc6192982ee39b2dc9d9b05cc155ee}{texture}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classObject_a9ac76a608a3e327acb6c8cbf946bcb9e}\label{classObject_a9ac76a608a3e327acb6c8cbf946bcb9e}} 
+\index{Object@{Object}!Object@{Object}}
+\index{Object@{Object}!Object@{Object}}
+\doxysubsubsection{\texorpdfstring{Object()}{Object()}}
+{\footnotesize\ttfamily Object\+::\+Object (\begin{DoxyParamCaption}\item[{std\+::string}]{text,  }\item[{float}]{w,  }\item[{float}]{h,  }\item[{float}]{x,  }\item[{float}]{y }\end{DoxyParamCaption})}
+
+Constructor that takes texture, the scale and position as parameters for the objects sprite. ~\newline
+ \mbox{\Hypertarget{classObject_a226f2ae2af766b77d83c09a4d766b725}\label{classObject_a226f2ae2af766b77d83c09a4d766b725}} 
+\index{Object@{Object}!````~Object@{$\sim$Object}}
+\index{````~Object@{$\sim$Object}!Object@{Object}}
+\doxysubsubsection{\texorpdfstring{$\sim$Object()}{~Object()}}
+{\footnotesize\ttfamily virtual Object\+::$\sim$\+Object (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [default]}}
+
+Default destructor. ~\newline
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classObject_a42a369d9cff9070afbb41023a709263d}\label{classObject_a42a369d9cff9070afbb41023a709263d}} 
+\index{Object@{Object}!collision@{collision}}
+\index{collision@{collision}!Object@{Object}}
+\doxysubsubsection{\texorpdfstring{collision()}{collision()}}
+{\footnotesize\ttfamily bool Object\+::collision (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classObject}{Object}} const \&}]{other }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Defines when tow objects have collided with eachother. 
+
+Reimplemented in \mbox{\hyperlink{classChili_ab156f744660d13d7145ec27d73defcfc}{Chili}}.
+
+\mbox{\Hypertarget{classObject_aa96cbfa211a3fdef07b9a942520ff6ab}\label{classObject_aa96cbfa211a3fdef07b9a942520ff6ab}} 
+\index{Object@{Object}!draw@{draw}}
+\index{draw@{draw}!Object@{Object}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void Object\+::draw (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Window \&}]{window }\end{DoxyParamCaption}) const}
+
+Draws the saved sprite to a Render\+Window. \mbox{\Hypertarget{classObject_a1cd2824fc2cee930f63980695cba7dee}\label{classObject_a1cd2824fc2cee930f63980695cba7dee}} 
+\index{Object@{Object}!getsprite@{getsprite}}
+\index{getsprite@{getsprite}!Object@{Object}}
+\doxysubsubsection{\texorpdfstring{getsprite()}{getsprite()}}
+{\footnotesize\ttfamily sf\+::\+Sprite Object\+::getsprite (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Returns the saved sprite. \mbox{\Hypertarget{classObject_aee75c5e9963f714e4de74b1108831195}\label{classObject_aee75c5e9963f714e4de74b1108831195}} 
+\index{Object@{Object}!update@{update}}
+\index{update@{update}!Object@{Object}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily virtual void Object\+::update (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classPlayer}{Player}} \&}]{object,  }\item[{sf\+::\+Time}]{time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Defines how the player will be updated in the game loop. 
+
+Implemented in \mbox{\hyperlink{classEntity_aadebb8290bc5eaac1d1d23eb59e0ab1b}{Entity}}, \mbox{\hyperlink{classWall_adf8f0c2ad1c59b8a02c7031e94ccac4f}{Wall}}, \mbox{\hyperlink{classPlayer_a66cd82c79ee44201cdad0c5d5ec9ade2}{Player}}, \mbox{\hyperlink{classEnemy_a5e326aa90c21680ca429a41b4f197489}{Enemy}}, and \mbox{\hyperlink{classCookie_aa8ab0b490e3e1529a01c3c81fad011d3}{Cookie}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classObject_a65be09abc56e93e0154c3a0e37f97579}\label{classObject_a65be09abc56e93e0154c3a0e37f97579}} 
+\index{Object@{Object}!sprite@{sprite}}
+\index{sprite@{sprite}!Object@{Object}}
+\doxysubsubsection{\texorpdfstring{sprite}{sprite}}
+{\footnotesize\ttfamily sf\+::\+Sprite Object\+::sprite\hspace{0.3cm}{\ttfamily [protected]}}
+
+Private variable that holdes the sprite that represents the object. \mbox{\Hypertarget{classObject_a8abc6192982ee39b2dc9d9b05cc155ee}\label{classObject_a8abc6192982ee39b2dc9d9b05cc155ee}} 
+\index{Object@{Object}!texture@{texture}}
+\index{texture@{texture}!Object@{Object}}
+\doxysubsubsection{\texorpdfstring{texture}{texture}}
+{\footnotesize\ttfamily sf\+::\+Texture Object\+::texture\hspace{0.3cm}{\ttfamily [protected]}}
+
+Private variable that contains the texter that the sprite has. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+object.\+h\item 
+object.\+cc\end{DoxyCompactItemize}

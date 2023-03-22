@@ -1,0 +1,71 @@
+\hypertarget{classEnemy}{}\doxysection{Enemy Class Reference}
+\label{classEnemy}\index{Enemy@{Enemy}}
+
+
+{\ttfamily \#include $<$enemy.\+h$>$}
+
+Inheritance diagram for Enemy\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{classEnemy}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classEnemy_a8099ea74c825ced1b24f4bc9bbfdd97d}{Enemy}} (std\+::string, float, float, int, int, int, int, float, int)
+\item 
+\mbox{\hyperlink{classEnemy_aca00fa2f20cea544f52beeb5aa1648f1}{$\sim$\+Enemy}} ()=default
+\item 
+void \mbox{\hyperlink{classEnemy_ab7013688a7a887c20c0fbb49de2a9088}{move}} (sf\+::\+Time)
+\item 
+void \mbox{\hyperlink{classEnemy_a5e326aa90c21680ca429a41b4f197489}{update}} (\mbox{\hyperlink{classPlayer}{Player}} \&object, sf\+::\+Time time)
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Defines the games enemies. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classEnemy_a8099ea74c825ced1b24f4bc9bbfdd97d}\label{classEnemy_a8099ea74c825ced1b24f4bc9bbfdd97d}} 
+\index{Enemy@{Enemy}!Enemy@{Enemy}}
+\index{Enemy@{Enemy}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{Enemy()}{Enemy()}}
+{\footnotesize\ttfamily Enemy\+::\+Enemy (\begin{DoxyParamCaption}\item[{std\+::string}]{image,  }\item[{float}]{x,  }\item[{float}]{y,  }\item[{int}]{dir\+\_\+1,  }\item[{int}]{dir\+\_\+2,  }\item[{int}]{dir\+\_\+3,  }\item[{int}]{dir\+\_\+4,  }\item[{float}]{dist,  }\item[{int}]{lives }\end{DoxyParamCaption})}
+
+Constructor that takes the texture, coordinates and route of the enemy as well as how far it walks and how many lives it takes. \mbox{\Hypertarget{classEnemy_aca00fa2f20cea544f52beeb5aa1648f1}\label{classEnemy_aca00fa2f20cea544f52beeb5aa1648f1}} 
+\index{Enemy@{Enemy}!````~Enemy@{$\sim$Enemy}}
+\index{````~Enemy@{$\sim$Enemy}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{$\sim$Enemy()}{~Enemy()}}
+{\footnotesize\ttfamily Enemy\+::$\sim$\+Enemy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+The enemys destructor set to default. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classEnemy_ab7013688a7a887c20c0fbb49de2a9088}\label{classEnemy_ab7013688a7a887c20c0fbb49de2a9088}} 
+\index{Enemy@{Enemy}!move@{move}}
+\index{move@{move}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{move()}{move()}}
+{\footnotesize\ttfamily void Enemy\+::move (\begin{DoxyParamCaption}\item[{sf\+::\+Time}]{time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Moves the enemy according to it\textquotesingle{}s route. 
+
+Implements \mbox{\hyperlink{classEntity_a567f2d612cfcda6b838b9e7d4f0e029e}{Entity}}.
+
+\mbox{\Hypertarget{classEnemy_a5e326aa90c21680ca429a41b4f197489}\label{classEnemy_a5e326aa90c21680ca429a41b4f197489}} 
+\index{Enemy@{Enemy}!update@{update}}
+\index{update@{update}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void Enemy\+::update (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classPlayer}{Player}} \&}]{object,  }\item[{sf\+::\+Time}]{time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Updates enemy and player in the game loop. 
+
+Implements \mbox{\hyperlink{classEntity_aadebb8290bc5eaac1d1d23eb59e0ab1b}{Entity}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+enemy.\+h\item 
+enemy.\+cc\end{DoxyCompactItemize}

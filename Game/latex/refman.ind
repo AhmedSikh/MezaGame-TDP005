@@ -1,0 +1,186 @@
+\begin{theindex}
+
+  \item {$\sim$Carrot}
+    \subitem {Carrot}, \hyperpage{7}
+  \item {$\sim$Chili}
+    \subitem {Chili}, \hyperpage{8}
+  \item {$\sim$Cookie}
+    \subitem {Cookie}, \hyperpage{9}
+  \item {$\sim$Enemy}
+    \subitem {Enemy}, \hyperpage{11}
+  \item {$\sim$Entity}
+    \subitem {Entity}, \hyperpage{12}
+  \item {$\sim$Object}
+    \subitem {Object}, \hyperpage{18}
+  \item {$\sim$Wall}
+    \subitem {Wall}, \hyperpage{23}
+  \item {$\sim$World}
+    \subitem {World}, \hyperpage{24}
+
+  \indexspace
+
+  \item {BadCookie}, \hyperpage{5}
+    \subitem {BadCookie}, \hyperpage{5}
+
+  \indexspace
+
+  \item {Carrot}, \hyperpage{6}
+    \subitem {$\sim$Carrot}, \hyperpage{7}
+    \subitem {Carrot}, \hyperpage{6}
+  \item {change\_coordinates}
+    \subitem {Player}, \hyperpage{20}
+  \item {Chili}, \hyperpage{7}
+    \subitem {$\sim$Chili}, \hyperpage{8}
+    \subitem {Chili}, \hyperpage{8}
+    \subitem {collision}, \hyperpage{8}
+  \item {collision}
+    \subitem {Chili}, \hyperpage{8}
+    \subitem {Object}, \hyperpage{18}
+  \item {collision\_with\_wall}
+    \subitem {Player}, \hyperpage{20}
+  \item {Cookie}, \hyperpage{9}
+    \subitem {$\sim$Cookie}, \hyperpage{9}
+    \subitem {Cookie}, \hyperpage{9}
+    \subitem {update}, \hyperpage{10}
+
+  \indexspace
+
+  \item {draw}
+    \subitem {Object}, \hyperpage{18}
+
+  \indexspace
+
+  \item {Enemy}, \hyperpage{10}
+    \subitem {$\sim$Enemy}, \hyperpage{11}
+    \subitem {Enemy}, \hyperpage{11}
+    \subitem {move}, \hyperpage{11}
+    \subitem {update}, \hyperpage{11}
+  \item {entities}
+    \subitem {World}, \hyperpage{25}
+  \item {Entity}, \hyperpage{12}
+    \subitem {$\sim$Entity}, \hyperpage{12}
+    \subitem {Entity}, \hyperpage{12}
+    \subitem {move}, \hyperpage{13}
+    \subitem {move\_direction}, \hyperpage{13}
+    \subitem {movement}, \hyperpage{13}
+    \subitem {update}, \hyperpage{13}
+
+  \indexspace
+
+  \item {Game}, \hyperpage{14}
+    \subitem {Game}, \hyperpage{14}
+    \subitem {run}, \hyperpage{14}
+  \item {get\_lives}
+    \subitem {Player}, \hyperpage{20}
+  \item {get\_points}
+    \subitem {Player}, \hyperpage{21}
+  \item {getPressedItem}
+    \subitem {Menu}, \hyperpage{16}
+  \item {getsprite}
+    \subitem {Object}, \hyperpage{18}
+  \item {GoodCookie}, \hyperpage{15}
+    \subitem {GoodCookie}, \hyperpage{15}
+
+  \indexspace
+
+  \item {input}
+    \subitem {Player}, \hyperpage{21}
+
+  \indexspace
+
+  \item {Menu}, \hyperpage{16}
+    \subitem {getPressedItem}, \hyperpage{16}
+    \subitem {Menu}, \hyperpage{16}
+    \subitem {run}, \hyperpage{17}
+  \item {move}
+    \subitem {Enemy}, \hyperpage{11}
+    \subitem {Entity}, \hyperpage{13}
+    \subitem {Player}, \hyperpage{21}
+  \item {move\_direction}
+    \subitem {Entity}, \hyperpage{13}
+  \item {movement}
+    \subitem {Entity}, \hyperpage{13}
+  \item {myPlayer}
+    \subitem {World}, \hyperpage{25}
+
+  \indexspace
+
+  \item {Object}, \hyperpage{17}
+    \subitem {$\sim$Object}, \hyperpage{18}
+    \subitem {collision}, \hyperpage{18}
+    \subitem {draw}, \hyperpage{18}
+    \subitem {getsprite}, \hyperpage{18}
+    \subitem {Object}, \hyperpage{18}
+    \subitem {sprite}, \hyperpage{19}
+    \subitem {texture}, \hyperpage{19}
+    \subitem {update}, \hyperpage{19}
+
+  \indexspace
+
+  \item {Player}, \hyperpage{19}
+    \subitem {change\_coordinates}, \hyperpage{20}
+    \subitem {collision\_with\_wall}, \hyperpage{20}
+    \subitem {get\_lives}, \hyperpage{20}
+    \subitem {get\_points}, \hyperpage{21}
+    \subitem {input}, \hyperpage{21}
+    \subitem {move}, \hyperpage{21}
+    \subitem {Player}, \hyperpage{20}
+    \subitem {set\_lives}, \hyperpage{21}
+    \subitem {set\_points}, \hyperpage{21}
+    \subitem {set\_speed}, \hyperpage{21}
+    \subitem {update}, \hyperpage{22}
+
+  \indexspace
+
+  \item {remove\_object}
+    \subitem {World}, \hyperpage{24}
+  \item {run}
+    \subitem {Game}, \hyperpage{14}
+    \subitem {Menu}, \hyperpage{17}
+
+  \indexspace
+
+  \item {set\_lives}
+    \subitem {Player}, \hyperpage{21}
+  \item {set\_points}
+    \subitem {Player}, \hyperpage{21}
+  \item {set\_speed}
+    \subitem {Player}, \hyperpage{21}
+  \item {sprite}
+    \subitem {Object}, \hyperpage{19}
+
+  \indexspace
+
+  \item {texture}
+    \subitem {Object}, \hyperpage{19}
+
+  \indexspace
+
+  \item {update}
+    \subitem {Cookie}, \hyperpage{10}
+    \subitem {Enemy}, \hyperpage{11}
+    \subitem {Entity}, \hyperpage{13}
+    \subitem {Object}, \hyperpage{19}
+    \subitem {Player}, \hyperpage{22}
+    \subitem {Wall}, \hyperpage{23}
+
+  \indexspace
+
+  \item {Wall}, \hyperpage{22}
+    \subitem {$\sim$Wall}, \hyperpage{23}
+    \subitem {update}, \hyperpage{23}
+    \subitem {Wall}, \hyperpage{23}
+  \item {walls}
+    \subitem {World}, \hyperpage{25}
+  \item {win}
+    \subitem {World}, \hyperpage{25}
+  \item {World}, \hyperpage{23}
+    \subitem {$\sim$World}, \hyperpage{24}
+    \subitem {entities}, \hyperpage{25}
+    \subitem {myPlayer}, \hyperpage{25}
+    \subitem {remove\_object}, \hyperpage{24}
+    \subitem {walls}, \hyperpage{25}
+    \subitem {win}, \hyperpage{25}
+    \subitem {World}, \hyperpage{24}
+
+\end{theindex}

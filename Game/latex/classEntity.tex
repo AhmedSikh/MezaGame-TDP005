@@ -1,0 +1,96 @@
+\hypertarget{classEntity}{}\doxysection{Entity Class Reference}
+\label{classEntity}\index{Entity@{Entity}}
+
+
+{\ttfamily \#include $<$entity.\+h$>$}
+
+Inheritance diagram for Entity\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{classEntity}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classEntity_a9bb6389537c3c151316f9424eba71f1b}{Entity}} (std\+::string text, float w, float h, float x, float y)
+\item 
+\mbox{\hyperlink{classEntity_aa6ecb9c57b29b60cc49fe44ad4088ecf}{$\sim$\+Entity}} ()=default
+\item 
+virtual void \mbox{\hyperlink{classEntity_a567f2d612cfcda6b838b9e7d4f0e029e}{move}} (sf\+::\+Time)=0
+\item 
+virtual void \mbox{\hyperlink{classEntity_aadebb8290bc5eaac1d1d23eb59e0ab1b}{update}} (\mbox{\hyperlink{classPlayer}{Player}} \&object, sf\+::\+Time time)=0
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classEntity_a2780b7e92b7574188094058672349dfe}{move\+\_\+direction}} \{\}
+\item 
+sf\+::\+Time \mbox{\hyperlink{classEntity_a2024ade01a2ebf2a1c6817e8b2b41ccb}{movement}} \{\}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Defines the entities in the game. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classEntity_a9bb6389537c3c151316f9424eba71f1b}\label{classEntity_a9bb6389537c3c151316f9424eba71f1b}} 
+\index{Entity@{Entity}!Entity@{Entity}}
+\index{Entity@{Entity}!Entity@{Entity}}
+\doxysubsubsection{\texorpdfstring{Entity()}{Entity()}}
+{\footnotesize\ttfamily Entity\+::\+Entity (\begin{DoxyParamCaption}\item[{std\+::string}]{text,  }\item[{float}]{w,  }\item[{float}]{h,  }\item[{float}]{x,  }\item[{float}]{y }\end{DoxyParamCaption})}
+
+Constructor that takes 4 floats as parameter that represent the size and placement of the entity. The constructor also takes the texture that the sprite will be set to. \mbox{\Hypertarget{classEntity_aa6ecb9c57b29b60cc49fe44ad4088ecf}\label{classEntity_aa6ecb9c57b29b60cc49fe44ad4088ecf}} 
+\index{Entity@{Entity}!````~Entity@{$\sim$Entity}}
+\index{````~Entity@{$\sim$Entity}!Entity@{Entity}}
+\doxysubsubsection{\texorpdfstring{$\sim$Entity()}{~Entity()}}
+{\footnotesize\ttfamily Entity\+::$\sim$\+Entity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+Default destructor. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classEntity_a567f2d612cfcda6b838b9e7d4f0e029e}\label{classEntity_a567f2d612cfcda6b838b9e7d4f0e029e}} 
+\index{Entity@{Entity}!move@{move}}
+\index{move@{move}!Entity@{Entity}}
+\doxysubsubsection{\texorpdfstring{move()}{move()}}
+{\footnotesize\ttfamily virtual void Entity\+::move (\begin{DoxyParamCaption}\item[{sf\+::\+Time}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Defines how the entities move in the game. 
+
+Implemented in \mbox{\hyperlink{classPlayer_a03f072119a16593381144998fb382cc7}{Player}}, and \mbox{\hyperlink{classEnemy_ab7013688a7a887c20c0fbb49de2a9088}{Enemy}}.
+
+\mbox{\Hypertarget{classEntity_aadebb8290bc5eaac1d1d23eb59e0ab1b}\label{classEntity_aadebb8290bc5eaac1d1d23eb59e0ab1b}} 
+\index{Entity@{Entity}!update@{update}}
+\index{update@{update}!Entity@{Entity}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily virtual void Entity\+::update (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classPlayer}{Player}} \&}]{object,  }\item[{sf\+::\+Time}]{time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Defines how the object and player will be updated in the game loop. 
+
+Implements \mbox{\hyperlink{classObject_aee75c5e9963f714e4de74b1108831195}{Object}}.
+
+
+
+Implemented in \mbox{\hyperlink{classPlayer_a66cd82c79ee44201cdad0c5d5ec9ade2}{Player}}, and \mbox{\hyperlink{classEnemy_a5e326aa90c21680ca429a41b4f197489}{Enemy}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classEntity_a2780b7e92b7574188094058672349dfe}\label{classEntity_a2780b7e92b7574188094058672349dfe}} 
+\index{Entity@{Entity}!move\_direction@{move\_direction}}
+\index{move\_direction@{move\_direction}!Entity@{Entity}}
+\doxysubsubsection{\texorpdfstring{move\_direction}{move\_direction}}
+{\footnotesize\ttfamily int Entity\+::move\+\_\+direction \{\}\hspace{0.3cm}{\ttfamily [protected]}}
+
+Private variable that contains an integer that represent the direction that the entity is moving. \mbox{\Hypertarget{classEntity_a2024ade01a2ebf2a1c6817e8b2b41ccb}\label{classEntity_a2024ade01a2ebf2a1c6817e8b2b41ccb}} 
+\index{Entity@{Entity}!movement@{movement}}
+\index{movement@{movement}!Entity@{Entity}}
+\doxysubsubsection{\texorpdfstring{movement}{movement}}
+{\footnotesize\ttfamily sf\+::\+Time Entity\+::movement \{\}\hspace{0.3cm}{\ttfamily [protected]}}
+
+Private varaiable that is used to check how the entity should moves. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+entity.\+h\item 
+entity.\+cc\end{DoxyCompactItemize}
